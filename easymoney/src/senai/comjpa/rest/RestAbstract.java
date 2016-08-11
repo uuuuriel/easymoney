@@ -11,12 +11,11 @@ import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
 import senai.comjpa.service.ServiceBase;
-
-import com.mysql.fabric.Response;
 
 public class RestAbstract<E,ID,SERVICE extends ServiceBase<E,ID>> {
 
