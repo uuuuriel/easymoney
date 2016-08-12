@@ -14,6 +14,7 @@ public class Pass {
 	private int id;
 	@NotNull
 	private String eletronico;
+	@NotNull
 	private String internet;
 	private int wrong;
 	private Date wrong_date;

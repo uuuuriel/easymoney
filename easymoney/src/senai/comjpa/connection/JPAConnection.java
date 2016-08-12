@@ -1,4 +1,4 @@
-package senai.comjpa.dao.jpa;
+package senai.comjpa.connection;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

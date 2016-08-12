@@ -2,9 +2,10 @@ package senai.comjpa.dao.jpa;
 
 import java.lang.reflect.ParameterizedType;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
+
+import senai.comjpa.connection.JPAConnection;
 
 public abstract class JPAAbstract<E, ID> extends JPAConnection implements Crud<E, ID>{
 
