@@ -4,9 +4,15 @@
 http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
 	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
 	<persistence-unit name="SENAI" transaction-type="RESOURCE_LOCAL">
-		<class>senai.comjpa.pojo.Estado</class>
 		<class>senai.comjpa.pojo.Cidade</class>
 		<class>senai.comjpa.pojo.Cliente</class>
+		<class>senai.comjpa.pojo.Conta</class>
+		<class>senai.comjpa.pojo.Email</class>
+		<class>senai.comjpa.pojo.Endereco</class>
+		<class>senai.comjpa.pojo.Geral</class>
+		<class>senai.comjpa.pojo.OldPass</class>
+		<class>senai.comjpa.pojo.Pass</class>
+		<class>senai.comjpa.pojo.Telefone</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa" />

@@ -1,6 +1,11 @@
 package senai.comjpa.pojo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Geral {
+	@Id
 	private Cidade cidade;
 	private Cliente cliente;
 	private Email email;
