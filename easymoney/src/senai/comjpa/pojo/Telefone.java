@@ -9,7 +9,16 @@ public class Telefone {
 	private int id;
 	private String telefone;
 	private String principal;
+	private Cliente cliente;
 	
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
 	public int getId() {
 		return id;
 	}
