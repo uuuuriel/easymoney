@@ -1,5 +1,0 @@
-package senai.comjpa.dao.jpa;
-
-public abstract class JPAAbstract {
-
-}
